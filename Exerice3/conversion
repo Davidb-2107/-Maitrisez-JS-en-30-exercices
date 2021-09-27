@@ -1,0 +1,20 @@
+const PUISSANCE = 2;
+
+let choixUtilisateur = prompt("Puissance voulue");
+//console.log(choixUtilisateur);
+
+//______________________________________________________________________________________
+
+//On vérifie le type de données qu'est la variable choiUtilisateur, ("string")
+console.log(typeof(choixUtilisateur));
+
+//______________________________________________________________________________________
+
+//On convertit le type de données string en nombre 
+choixUtilisateur = Number(choixUtilisateur, 10);
+//et on vérifie
+console.log(typeof(choixUtilisateur));
+
+//______________________________________________________________________________________
+
+console.log(`${PUISSANCE} à la puissance ${choixUtilisateur} = ${Math.pow(PUISSANCE,choixUtilisateur)}`);
